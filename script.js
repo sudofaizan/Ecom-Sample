@@ -9,11 +9,12 @@ function getProducts() {
         const productCard = document.createElement('div');
         productCard.classList.add('product');
         productCard.innerHTML = `
+        <h4>product ID:${product.id}</h4>
           <img src="${product.image}" alt="${product.name}">
           <h3>${product.name}</h3>
           <p>${product.description}</p>
-          <h4>${product.id}</h4>
           <p class="price">$${product.price.toFixed(2)}</p>
+          
         `;
         productGrid.appendChild(productCard);
       });

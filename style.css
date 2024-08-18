@@ -29,6 +29,12 @@ header {
   .product h3 {
     margin-bottom: 10px;
   }
+  .product h4 {
+    margin-bottom: 10px;
+    font-size: 10px;
+    color: #515151;
+    font-family:monospace;
+  }
   
   .product p {
     margin: 5px 0;
