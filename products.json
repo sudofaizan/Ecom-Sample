@@ -1,34 +1,34 @@
 [
   {
-    "name": "prod1",
+    "name": "ganja",
     "id": 1,
     "price": 10.99,
     "image": "https://www.w3schools.com/images/picture.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sdas."
   },
   {
-    "name": "prod2",
+    "name": "heroine",
     "id": 2,
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product2.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    "name": "prod3",
+    "name": "charas",
     "id": 3,
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product2.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    "name": "prod4",
+    "name": "button",
     "id": 4,
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product2.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    "name": "prod5",
+    "name": "stickfast",
     "id": 5,
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product2.jpg",
