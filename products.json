@@ -33,5 +33,12 @@
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/stickfast.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "stickfast2",
+    "id": 6,
+    "price": 2,
+    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/stickfast.jpg",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 ]
