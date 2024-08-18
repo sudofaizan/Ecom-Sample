@@ -10,17 +10,5 @@
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product2.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  },
-  {
-    "name": "Product 3",
-    "price": 29.99,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product3.jpg",
-    "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  },
-  {
-    "name": "pencil",
-    "price": 1.55,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product3.jpg",
-    "description": "pencel lelo"
   }
 ]
