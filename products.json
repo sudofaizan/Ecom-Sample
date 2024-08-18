@@ -2,9 +2,9 @@
   {
     "name": "ganja",
     "id": 1,
-    "price": 10.99,
-    "image": "https://www.w3schools.com/images/picture.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sdas."
+    "price": 10.11,
+    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/ganja.jpg",
+    "description": "ganja is a nashila pradat joint bnao phuko sojao"
   },
   {
     "name": "heroine",
