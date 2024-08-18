@@ -1,12 +1,14 @@
 [
   {
-    "name": "Product 1",
+    "name": "prod1",
+    "id": 1,
     "price": 10.99,
     "image": "https://www.w3schools.com/images/picture.jpg",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sdas."
   },
   {
-    "name": "Product 2",
+    "name": "prod2",
+    "id": 2,
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product2.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
