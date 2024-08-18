@@ -10,6 +10,27 @@ header {
     flex-wrap: wrap;
     justify-content: space-around;
   }
+  @media only screen and (max-width: 767px) {
+    #products-list {
+      display: block;
+      text-align: center;
+    }
+  
+    .product {
+      display: inline-block;
+      margin: 10px;
+      width: calc(100% - 20px); /* Take up full-width minus margins */
+    }
+  }
+  #products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   
   .product {
     background-color: #FFFFFF;
@@ -31,7 +52,7 @@ header {
   }
   .product h4 {
     margin-bottom: 10px;
-    font-size: 10px;
+    font-size: 1px;
     color: #515151;
     font-family:monospace;
   }
