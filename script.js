@@ -11,8 +11,8 @@ function getProducts() {
         productCard.innerHTML = `
           <img src="${product.image}" alt="${product.name}">
           <h3>${product.name}</h3>
-          <h3>${product.id}</h3>
           <p>${product.description}</p>
+          <h4>${product.id}</h4>
           <p class="price">$${product.price.toFixed(2)}</p>
         `;
         productGrid.appendChild(productCard);
