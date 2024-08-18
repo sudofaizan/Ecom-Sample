@@ -26,5 +26,12 @@
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product2.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+  },
+  {
+    "name": "prod5",
+    "id": 5,
+    "price": 19.99,
+    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/product2.jpg",
+    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 ]
