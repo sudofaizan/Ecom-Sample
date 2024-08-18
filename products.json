@@ -3,35 +3,35 @@
     "name": "ganja",
     "id": 1,
     "price": 10.11,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/ganja.jpg",
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
     "description": "ganja is a nashila pradat joint bnao phuko sojao"
   },
   {
     "name": "paracetamol",
     "id": 2,
     "price": 19.99,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/heroine.jpg",
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
     "description": "heroine powder"
   },
   {
     "name": "dicloplus",
     "id": 3,
     "price": 19.99,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/charas.jpg",
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
     "description": "charas description"
   },
   {
     "name": "azithromycin",
     "id": 4,
     "price": 19.99,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/button.jpg",
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
     "name": "zerodol P",
     "id": 5,
     "price": 19.99,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/stickfast.jpg",
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
 ]
