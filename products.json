@@ -1,50 +1,36 @@
 [
   {
-    "name": "paracitamol",
+    "name": "ganja",
     "id": 1,
     "price": 10.11,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/ganja.jpg",
     "description": "ganja is a nashila pradat joint bnao phuko sojao"
   },
   {
-    "name": "dicloplus",
+    "name": "paracetamol",
     "id": 2,
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/heroine.jpg",
     "description": "heroine powder"
   },
   {
-    "name": "azithromysin",
+    "name": "dicloplus",
     "id": 3,
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/charas.jpg",
     "description": "charas description"
   },
   {
-    "name": "zerodol",
+    "name": "azithromycin",
     "id": 4,
     "price": 19.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/button.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
-    "name": "stickfast",
+    "name": "zerodol P",
     "id": 5,
     "price": 19.99,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/stickfast.jpg",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  },
-    {
-    "name": "stickfast",
-    "id": 5,
-    "price": 19.99,
-    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/stickfast.jpg",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-  },
-  {
-    "name": "khilona",
-    "id": 5,
-    "price": 15.99,
     "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/Product_images/stickfast.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   }
