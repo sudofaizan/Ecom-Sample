@@ -2,19 +2,19 @@
   {
     "name": "Product 1",
     "price": 10.99,
-    "image": "product1.jpg",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/product1.jpg",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing sdas."
   },
   {
     "name": "Product 2",
     "price": 19.99,
-    "image": "product2.jpg",
+    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/product2.jpg",
     "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
   },
   {
     "name": "Product 3",
     "price": 29.99,
-    "image": "product3.jpg",
+    "image": "https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/product3.jpg",
     "description": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   }
 ]
