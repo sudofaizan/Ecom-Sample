@@ -278,5 +278,40 @@
     "price": 9.6,
     "image": "https://medlineplus.gov/images/Medicines_share.jpg",
     "description": "Alprazolam is used to treat anxiety and panic disorders."
+  },
+  {
+    "name": "Sertraline",
+    "id": 41,
+    "price": 5.6,
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
+    "description": "Sertraline is an antidepressant in the SSRI class used to treat depression, anxiety, and obsessive-compulsive disorder."
+  },
+  {
+    "name": "Acetaminophen",
+    "id": 42,
+    "price": 3.2,
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
+    "description": "Acetaminophen is a pain reliever and fever reducer used to treat mild to moderate pain and reduce fever."
+  },
+  {
+    "name": "Escitalopram",
+    "id": 43,
+    "price": 7.8,
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
+    "description": "Escitalopram is an antidepressant used to treat depression and generalized anxiety disorder."
+  },
+  {
+    "name": "Naproxen",
+    "id": 44,
+    "price": 4.9,
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
+    "description": "Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, tenderness, swelling, and stiffness."
+  },
+  {
+    "name": "Metoclopramide",
+    "id": 45,
+    "price": 6.2,
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
+    "description": "Metoclopramide is used to treat gastroesophageal reflux disease (GERD) and to prevent nausea and vomiting."
   }
 ]
