@@ -1,37 +1,37 @@
 [
   {
-    "name": "ganja",
+    "name": "Meftal Spas",
     "id": 1,
     "price": 10.11,
     "image": "https://medlineplus.gov/images/Medicines_share.jpg",
-    "description": "ganja is a nashila pradat joint bnao phuko sojao"
+    "description": "Meftal Spas is commonly used to relieve pain and discomfort caused by muscle spasms, especially in the abdomen."
   },
   {
-    "name": "paracetamol",
+    "name": "Paracetamol",
     "id": 2,
-    "price": 19.99,
+    "price": 1.2,
     "image": "https://medlineplus.gov/images/Medicines_share.jpg",
-    "description": "heroine powder"
+    "description": "Paracetamol is a widely used medication for reducing fever and relieving mild to moderate pain."
   },
   {
-    "name": "dicloplus",
+    "name": "Diclofenac Plus",
     "id": 3,
-    "price": 19.99,
+    "price": 2.2,
     "image": "https://medlineplus.gov/images/Medicines_share.jpg",
-    "description": "charas description"
+    "description": "Diclofenac Plus is an anti-inflammatory medicine used to treat pain and inflammation in conditions such as arthritis and musculoskeletal disorders."
   },
   {
-    "name": "azithromycin",
+    "name": "Azithromycin",
     "id": 4,
-    "price": 19.99,
+    "price": 1.5,
     "image": "https://medlineplus.gov/images/Medicines_share.jpg",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "description": "Azithromycin is an antibiotic used to treat a variety of bacterial infections, including respiratory and skin infections."
   },
   {
-    "name": "zerodol P",
+    "name": "Zerodol-P",
     "id": 5,
-    "price": 19.99,
+    "price": 5.3,
     "image": "https://medlineplus.gov/images/Medicines_share.jpg",
-    "description": "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "description": "Zerodol-P is a combination medicine used for pain relief, especially in cases of osteoarthritis and rheumatoid arthritis."
   }
 ]

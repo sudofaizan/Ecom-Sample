@@ -1,37 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 header {
-    background-color: #021b2c;
-    color: #FFFFFF;
-    padding: 20px;
-    text-align: center;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin-bottom: 20px;
+}
+.header-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+  .logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; /* Space between image and text */
+  }  
   #product-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    border-radius: 10px;
   }
-  @media only screen and (max-width: 767px) {
-    #products-list {
-      display: block;
-      text-align: center;
-    }
-  
-    .product {
-      display: inline-block;
-      margin: 10px;
-      width: calc(100% - 20px); /* Take up full-width minus margins */
-    }
+  .input {
+    padding: 10px;
+    font-size: 1rem;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
   }
-  #products-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
+  #search-input {
+    display: block;
+    margin: 10px auto;
+    padding: 5px;
+    width: 200px;
+    font-size: 14px;
+}
+
   .product {
     background-color: #FFFFFF;
     border: 1px solid #EAEAEA;
@@ -40,8 +53,12 @@ header {
     padding: 10px;
     text-align: center;
     width: 300px;
+    border-radius: 20px;
   }
-  
+  .product:hover {
+    box-shadow: rgba(65, 62, 62, 0.35) 0 -25px 18px -14px inset,rgba(49, 44, 44, 0.25) 0 1px 2px,rgba(68, 64, 64, 0.25) 0 2px 4px,rgba(64, 61, 61, 0.25) 0 4px 8px,rgba(69, 67, 67, 0.25) 0 8px 16px,rgba(52, 45, 45, 0.25) 0 16px 32px;
+    transform: scale(1.15) ;
+  }
   .product img {
     max-width: 100%;
     height: auto;
@@ -52,10 +69,11 @@ header {
   }
   .product h4 {
     margin-bottom: 10px;
-    font-size: 1px;
+    font-size: 10px;
     color: #515151;
     font-family:monospace;
   }
+
   
   .product p {
     margin: 5px 0;
@@ -73,3 +91,97 @@ header {
     padding: 20px;
     text-align: center;
   }
+
+
+
+
+  .button-85 {
+    padding: 0.6em 2em;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button-85:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+  .button-85:after {
+    z-index: -1;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #222;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+  }
+
+
+
+  
+  .iput {
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: right 8px center;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  outline: none;
+  box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+  }
+  iput:focus{
+      border-color: #0366d6;
+      outline: none;
+      box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+  }
+  

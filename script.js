@@ -1,1 +1,44 @@
-const _0x996ba5=_0x5e45;function _0x5e45(_0x20ac52,_0x29184b){const _0x4447aa=_0x5823();return _0x5e45=function(_0x1a42b2,_0x26cb18){_0x1a42b2=_0x1a42b2-(0x1eea*-0x1+-0x3d*-0x7d+0x179*0x2);let _0x1a445e=_0x4447aa[_0x1a42b2];return _0x1a445e;},_0x5e45(_0x20ac52,_0x29184b);}(function(_0x28f483,_0x19aa4f){const _0x39acc5=_0x5e45,_0x486c9d=_0x28f483();while(!![]){try{const _0x5e9f8f=-parseInt(_0x39acc5(0x1e9))/(-0x742*0x1+-0x86d*-0x2+-0x1eb*0x5)+-parseInt(_0x39acc5(0x1f0))/(-0x1ea7+-0x1*0x10e2+-0x3*-0xfd9)+parseInt(_0x39acc5(0x1d9))/(0x2428+-0x3*0x946+0x853*-0x1)+-parseInt(_0x39acc5(0x1de))/(-0x35*0x6+-0x3c0+-0x281*-0x2)+-parseInt(_0x39acc5(0x20d))/(-0x425*0x7+-0x2613+0x431b)+-parseInt(_0x39acc5(0x1e3))/(-0x832+-0x169d*0x1+0x3*0xa47)*(parseInt(_0x39acc5(0x1dd))/(0x181+0x4d*-0x7f+-0x77*-0x4f))+parseInt(_0x39acc5(0x208))/(-0x76b+0x26d4+-0x1f61*0x1);if(_0x5e9f8f===_0x19aa4f)break;else _0x486c9d['push'](_0x486c9d['shift']());}catch(_0x44ce56){_0x486c9d['push'](_0x486c9d['shift']());}}}(_0x5823,0xa0aef+0xc245+0x1523*-0x2f));const productsUrl=_0x996ba5(0x1e7)+_0x996ba5(0x1d3)+_0x996ba5(0x1fa)+_0x996ba5(0x202)+_0x996ba5(0x1fc)+_0x996ba5(0x1d4)+_0x996ba5(0x1d8)+_0x996ba5(0x20e),productGrid=document[_0x996ba5(0x203)+_0x996ba5(0x204)](_0x996ba5(0x1f9)+'id');function _0x5823(){const _0x5548e4=['Sample/mai','\x20\x20\x20\x20\x20\x20<img','\x20\x20\x20<h3>','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<','n/products','721287vccsDO','h4>product','div','</h4>\x0a\x20\x20\x20\x20','8869WbNjVl','2988580kPdxAL','then','yOWgR','innerHTML','\x20\x20\x20\x20\x20\x0a\x20\x20\x20\x20','1092HSFQrR','qcHqM','classList','ing\x20produc','https://ra','add','727980xmNejY','\x22\x20alt=\x22','\x20\x20\x20\x20','ent','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20','name','ass=\x22price','600042hHlNKj','Error\x20gett','ts:','\x20\x20\x20\x20\x20<p\x20cl','json','appendChil','BeqMo','MElCc','product','product-gr','ercontent.','\x20ID:','izan/Ecom-','\x20src=\x22','forEach','qfwOW','error','descriptio','com/sudofa','getElement','ById','toFixed','catch','image','20994160xJwEyL','price','createElem','</p>\x0a\x20\x20\x20\x20\x20','\x22>$','2026920RjAxcM','.json','</h3>\x0a\x20\x20\x20\x20','\x20\x20\x20\x20\x20\x20<p>','w.githubus'];_0x5823=function(){return _0x5548e4;};return _0x5823();}function getProducts(){const _0x3b4bdb=_0x996ba5,_0x457a27={'qfwOW':_0x3b4bdb(0x1db),'qcHqM':_0x3b4bdb(0x1f8),'MElCc':function(_0x3a1e95,_0xa5dbd9){return _0x3a1e95(_0xa5dbd9);}};_0x457a27[_0x3b4bdb(0x1f7)](fetch,productsUrl)[_0x3b4bdb(0x1df)](_0x4004a9=>_0x4004a9[_0x3b4bdb(0x1f4)]())[_0x3b4bdb(0x1df)](_0x473fe8=>{const _0x269ff8=_0x3b4bdb,_0x3c587b={'yOWgR':_0x457a27[_0x269ff8(0x1ff)],'BeqMo':_0x457a27[_0x269ff8(0x1e4)]};_0x473fe8[_0x269ff8(0x1fe)](_0x1e4ddd=>{const _0x29114b=_0x269ff8,_0x3c5a11=document[_0x29114b(0x20a)+_0x29114b(0x1ec)](_0x3c587b[_0x29114b(0x1e0)]);_0x3c5a11[_0x29114b(0x1e5)][_0x29114b(0x1e8)](_0x3c587b[_0x29114b(0x1f6)]),_0x3c5a11[_0x29114b(0x1e1)]=_0x29114b(0x1d7)+_0x29114b(0x1da)+_0x29114b(0x1fb)+_0x1e4ddd['id']+(_0x29114b(0x1dc)+_0x29114b(0x1d5)+_0x29114b(0x1fd))+_0x1e4ddd[_0x29114b(0x207)]+_0x29114b(0x1ea)+_0x1e4ddd[_0x29114b(0x1ee)]+(_0x29114b(0x1ed)+_0x29114b(0x1d6))+_0x1e4ddd[_0x29114b(0x1ee)]+(_0x29114b(0x1d1)+_0x29114b(0x1d2))+_0x1e4ddd[_0x29114b(0x201)+'n']+(_0x29114b(0x20b)+_0x29114b(0x1f3)+_0x29114b(0x1ef)+_0x29114b(0x20c))+_0x1e4ddd[_0x29114b(0x209)][_0x29114b(0x205)](-0x11a+-0x15*0x15d+-0x14b*-0x17)+(_0x29114b(0x20b)+_0x29114b(0x1e2)+_0x29114b(0x1eb)),productGrid[_0x29114b(0x1f5)+'d'](_0x3c5a11);});})[_0x3b4bdb(0x206)](_0x4328cf=>console[_0x3b4bdb(0x200)](_0x3b4bdb(0x1f1)+_0x3b4bdb(0x1e6)+_0x3b4bdb(0x1f2),_0x4328cf));}getProducts();
+const productsUrl = 'https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/products.json';
+const productGrid = document.getElementById('product-grid');
+const searchInput = document.getElementById('search-input');
+
+let allProducts = [];
+
+function getProducts() {
+    fetch(productsUrl)
+        .then(response => response.json())
+        .then(products => {
+            allProducts = products;
+            displayProducts(products);
+        })
+        .catch(error => console.error('Error getting products:', error));
+}
+
+function displayProducts(products) {
+    productGrid.innerHTML = ''; // Clear existing products
+    products.forEach(product => {
+        const productCard = document.createElement('div');
+        productCard.classList.add('product');
+        productCard.innerHTML = `
+            <h4>Product ID:${product.id}</h4>
+            <img src="${product.image}" alt="${product.name}">
+            <h3>${product.name}</h3>
+            <p>${product.description}</p>
+            <p class="price">$${product.price.toFixed(2)}</p>
+        `;
+        productGrid.appendChild(productCard);
+    });
+}
+
+function searchProducts() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const filteredProducts = allProducts.filter(product => 
+        product.name.toLowerCase().includes(searchTerm) || 
+        product.id.toString().includes(searchTerm)
+    );
+    displayProducts(filteredProducts);
+}
+
+searchInput.addEventListener('input', searchProducts);
+
+getProducts();
