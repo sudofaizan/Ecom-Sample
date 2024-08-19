@@ -33,5 +33,12 @@
     "price": 5.3,
     "image": "https://medlineplus.gov/images/Medicines_share.jpg",
     "description": "Zerodol-P is a combination medicine used for pain relief, especially in cases of osteoarthritis and rheumatoid arthritis."
+  },
+  {
+    "name": "Zerodol-SP",
+    "id": 5,
+    "price": 5.3,
+    "image": "https://medlineplus.gov/images/Medicines_share.jpg",
+    "description": "Zerodol-SP is a combination medicine used for common pain relief."
   }
 ]
