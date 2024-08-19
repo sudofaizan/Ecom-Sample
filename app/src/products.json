@@ -1,0 +1,317 @@
+[
+  {
+    "name":"Ibuprofen",
+    "id":1,
+    "price":3.5,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Ibuprofen is a non-steroidal anti-inflammatory drug (NSAID) commonly used to relieve pain, inflammation, and reduce fever."
+  },
+  {
+    "name":"Amoxicillin",
+    "id":2,
+    "price":6.7,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Amoxicillin is an antibiotic used to treat a wide variety of bacterial infections."
+  },
+  {
+    "name":"Cetirizine",
+    "id":3,
+    "price":2.3,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Cetirizine is an antihistamine used to relieve allergy symptoms such as watery eyes, runny nose, and sneezing."
+  },
+  {
+    "name":"Aspirin",
+    "id":4,
+    "price":4.1,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Aspirin is used to reduce fever, pain, and inflammation, and it is also used as a blood thinner."
+  },
+  {
+    "name":"Lisinopril",
+    "id":5,
+    "price":5.0,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Lisinopril is an ACE inhibitor used to treat high blood pressure and heart failure."
+  },
+  {
+    "name":"Metformin",
+    "id":6,
+    "price":7.2,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Metformin is commonly prescribed for managing type 2 diabetes by controlling blood sugar levels."
+  },
+  {
+    "name":"Omeprazole",
+    "id":7,
+    "price":3.8,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Omeprazole is a proton pump inhibitor (PPI) used to treat acid reflux, GERD, and stomach ulcers."
+  },
+  {
+    "name":"Amlodipine",
+    "id":8,
+    "price":4.4,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Amlodipine is a calcium channel blocker used to treat high blood pressure and chest pain (angina)."
+  },
+  {
+    "name":"Atorvastatin",
+    "id":9,
+    "price":9.0,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Atorvastatin is used to lower cholesterol and reduce the risk of heart disease."
+  },
+  {
+    "name":"Ciprofloxacin",
+    "id":10,
+    "price":7.5,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Ciprofloxacin is an antibiotic used to treat a variety of bacterial infections, especially urinary tract infections."
+  },
+  {
+    "name":"Gabapentin",
+    "id":11,
+    "price":6.3,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Gabapentin is used to treat nerve pain and seizures."
+  },
+  {
+    "name":"Clopidogrel",
+    "id":12,
+    "price":8.4,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Clopidogrel is a blood thinner used to prevent blood clots after a heart attack or stroke."
+  },
+  {
+    "name":"Tramadol",
+    "id":13,
+    "price":9.1,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Tramadol is a pain reliever used to treat moderate to severe pain."
+  },
+  {
+    "name":"Levothyroxine",
+    "id":14,
+    "price":4.7,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Levothyroxine is used to treat hypothyroidism by replacing thyroid hormone."
+  },
+  {
+    "name":"Simvastatin",
+    "id":15,
+    "price":5.9,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Simvastatin is used to lower cholesterol and reduce the risk of heart disease."
+  },
+  {
+    "name":"Losartan",
+    "id":16,
+    "price":6.8,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Losartan is an angiotensin receptor blocker (ARB) used to treat high blood pressure."
+  },
+  {
+    "name":"Prednisone",
+    "id":17,
+    "price":3.6,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Prednisone is a corticosteroid used to treat conditions such as asthma, allergies, and arthritis."
+  },
+  {
+    "name":"Hydrochlorothiazide",
+    "id":18,
+    "price":2.9,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Hydrochlorothiazide is a diuretic used to treat high blood pressure and fluid retention."
+  },
+  {
+    "name":"Azithromycin",
+    "id":19,
+    "price":7.4,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Azithromycin is an antibiotic used to treat bacterial infections like respiratory infections and STIs."
+  },
+  {
+    "name":"Pantoprazole",
+    "id":20,
+    "price":6.5,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Pantoprazole is a proton pump inhibitor (PPI) used to treat GERD and stomach acid-related issues."
+  },
+  {
+    "name":"Furosemide",
+    "id":21,
+    "price":4.3,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Furosemide is a diuretic used to treat edema and high blood pressure."
+  },
+  {
+    "name":"Metoprolol",
+    "id":22,
+    "price":6.0,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Metoprolol is a beta-blocker used to treat high blood pressure, chest pain, and heart conditions."
+  },
+  {
+    "name":"Zolpidem",
+    "id":23,
+    "price":8.8,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Zolpidem is used to treat insomnia by helping with sleep onset."
+  },
+  {
+    "name":"Ranitidine",
+    "id":24,
+    "price":5.2,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Ranitidine is used to reduce stomach acid and treat conditions such as ulcers and GERD."
+  },
+  {
+    "name":"Fluoxetine",
+    "id":25,
+    "price":9.3,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Fluoxetine is an antidepressant used to treat depression, OCD, and panic disorders."
+  },
+  {
+    "name":"Esomeprazole",
+    "id":26,
+    "price":7.9,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Esomeprazole is a proton pump inhibitor (PPI) used to treat acid reflux and heartburn."
+  },
+  {
+    "name":"Tamsulosin",
+    "id":27,
+    "price":6.6,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Tamsulosin is used to treat the symptoms of an enlarged prostate (benign prostatic hyperplasia - BPH)."
+  },
+  {
+    "name":"Clarithromycin",
+    "id":28,
+    "price":8.1,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Clarithromycin is an antibiotic used to treat respiratory tract infections and skin infections."
+  },
+  {
+    "name":"Carbamazepine",
+    "id":29,
+    "price":7.7,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Carbamazepine is used to treat seizures, nerve pain, and bipolar disorder."
+  },
+  {
+    "name":"Hydrocodone",
+    "id":30,
+    "price":9.8,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Hydrocodone is a pain reliever used to treat severe pain, often combined with acetaminophen."
+  },
+  {
+    "name":"Warfarin",
+    "id":31,
+    "price":4.6,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Warfarin is an anticoagulant (blood thinner) used to prevent blood clots."
+  },
+  {
+    "name":"Spironolactone",
+    "id":32,
+    "price":6.1,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Spironolactone is a diuretic used to treat fluid retention and high blood pressure."
+  },
+  {
+    "name":"Doxycycline",
+    "id":33,
+    "price":7.0,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Doxycycline is an antibiotic used to treat bacterial infections, including acne and respiratory infections."
+  },
+  {
+    "name":"Lorazepam",
+    "id":34,
+    "price":8.2,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Lorazepam is used to treat anxiety disorders and insomnia."
+  },
+  {
+    "name":"Allopurinol",
+    "id":35,
+    "price":5.8,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Allopurinol is used to treat gout and kidney stones by lowering uric acid levels."
+  },
+  {
+    "name":"Montelukast",
+    "id":36,
+    "price":6.4,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Montelukast is used to prevent asthma attacks and to relieve seasonal allergy symptoms."
+  },
+  {
+    "name":"Diazepam",
+    "id":37,
+    "price":8.5,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Diazepam is used to treat anxiety, muscle spasms, and seizures."
+  },
+  {
+    "name":"Methotrexate",
+    "id":38,
+    "price":7.1,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Methotrexate is used to treat certain types of cancer and autoimmune diseases such as rheumatoid arthritis."
+  },
+  {
+    "name":"Rivaroxaban",
+    "id":39,
+    "price":9.4,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Rivaroxaban is an anticoagulant used to prevent and treat blood clots."
+  },
+  {
+    "name":"Alprazolam",
+    "id":40,
+    "price":9.6,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Alprazolam is used to treat anxiety and panic disorders."
+  },
+  {
+    "name":"Sertraline",
+    "id":41,
+    "price":5.6,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Sertraline is an antidepressant in the SSRI class used to treat depression, anxiety, and obsessive-compulsive disorder."
+  },
+  {
+    "name":"Acetaminophen",
+    "id":42,
+    "price":3.2,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Acetaminophen is a pain reliever and fever reducer used to treat mild to moderate pain and reduce fever."
+  },
+  {
+    "name":"Escitalopram",
+    "id":43,
+    "price":7.8,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Escitalopram is an antidepressant used to treat depression and generalized anxiety disorder."
+  },
+  {
+    "name":"Naproxen",
+    "id":44,
+    "price":4.9,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Naproxen is a nonsteroidal anti-inflammatory drug (NSAID) used to relieve pain, tenderness, swelling, and stiffness."
+  },
+  {
+    "name":"Metoclopramide",
+    "id":45,
+    "price":6.2,
+    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
+    "description":"Metoclopramide is used to treat gastroesophageal reflux disease (GERD) and to prevent nausea and vomiting."
+  }
+]

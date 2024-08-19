@@ -1,4 +1,5 @@
-const productsUrl = 'https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/products.json';
+// const productsUrl = 'https://raw.githubusercontent.com/sudofaizan/Ecom-Sample/main/products.json';
+const productsUrl = 'converter/products.json ';
 const productGrid = document.getElementById('product-grid');
 const searchInput = document.getElementById('search-input');
 
