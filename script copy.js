@@ -34,7 +34,8 @@ function searchProducts() {
     const searchTerm = searchInput.value.toLowerCase();
     const filteredProducts = allProducts.filter(product => 
         product.name.toLowerCase().includes(searchTerm) || 
-        product.id.toString().includes(searchTerm)
+        product.id.toString().includes(searchTerm)  ||
+        product.description.toString().includes(searchTerm)
     );
     displayProducts(filteredProducts);
 }

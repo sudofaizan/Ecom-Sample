@@ -41,7 +41,8 @@ header {
     display: block;
     margin: 10px auto;
     padding: 5px;
-    width: 200px;
+    text-align: center;
+    width: 250px;
     font-size: 14px;
 }
 
