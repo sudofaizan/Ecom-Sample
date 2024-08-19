@@ -313,19 +313,5 @@
     "price":6.2,
     "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
     "description":"Metoclopramide is used to treat gastroesophageal reflux disease (GERD) and to prevent nausea and vomiting."
-  },
-  {
-    "name":"raw",
-    "id":46,
-    "price":10.2,
-    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
-    "description":"rawrawraw"
-  },
-  {
-    "name":"updateprodtest",
-    "id":47,
-    "price":1.2,
-    "image":"https:\/\/medlineplus.gov\/images\/Medicines_share.jpg",
-    "description":"rawrawrawrand"
   }
 ]
