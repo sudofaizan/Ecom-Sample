@@ -186,3 +186,44 @@ header {
       box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
   }
   
+  #cart-container {
+    position: fixed; /* Changed from absolute to fixed for better placement */
+    top: 20px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 100; /* Ensures the cart stays above other content */
+  }
+  
+  #cart-icon {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+  }
+  
+  #cart-count {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #ff6347;
+    border-radius: 50%;
+    padding: 5px 10px;
+  }
+  
+  #cart-count-animation {
+    position: absolute;
+    top: -20px;
+    right: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: green;
+    opacity: 0;
+    transform: translateY(0);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+  }
+  
+  .cart-animate {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
