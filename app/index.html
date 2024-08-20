@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="src/medicine.png" type="image/x-icon"/>
   <title>Empereal Medical</title>
   <link rel="stylesheet" href="src/enc_style.css">
@@ -9,11 +11,16 @@
   <header>
     <div class="header-content">
       <img src="src/medicine.png" alt="Empereal Medical logo" class="logo">
-      <h1>Empereal Medical</h1>   
+      <h1>Empereal Medical</h1>
     </div>
     <div id="search-container">
-      <input class="input" type="text" id="search-input" placeholder="Search by name or ID or Symptoms...">
-      <button class="button-85" id="search-button">Search</button>
+      <input class="input" type="text" id="search-input" placeholder="Search by name, ID, or symptoms...">
+      <!-- <button class="button-85" id="search-button">Search</button> -->
+      <select class="button-85"   id="sort-select">
+        <option value="none">Sort by Price</option>
+        <option value="low-to-high">Low to High</option>
+        <option value="high-to-low">High to Low</option>
+      </select>
     </div>
   </header>
   <section id="product-grid">
