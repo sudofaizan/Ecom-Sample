@@ -3,7 +3,8 @@ const productGrid = document.getElementById('product-grid');
 const searchInput = document.getElementById('search-input');
 const sortSelect = document.getElementById('sort-select');
 const cartCountElement = document.getElementById('cart-count');
-const cartCountAnimation = document.getElementById('cart-count-animation');
+const cartPanel = document.getElementById('cart-panel');
+const cartItemsList = document.getElementById('cart-items');
 
 let allProducts = [];
 let cart = [];
@@ -50,7 +51,7 @@ function addToCart(event) {
     if (product) {
         cart.push(product);
         updateCartCount();
-        triggerCartAnimation(); // Trigger the animation
+        displayCartItems(); // Display the updated cart items
     }
 }
 
@@ -58,7 +59,38 @@ function addToCart(event) {
 function updateCartCount() {
     cartCountElement.textContent = cart.length;
 }
+function displayCartItems() {
+    if (cart.length === 0) {
+        cartItemsList.innerHTML = '<li>Your cart is empty.</li>';
+    } else {
+        cartItemsList.innerHTML = cart.map((item, index) => `
+            <li>
+                <img src="${item.image}" alt="${item.name}">
+                <span>${item.name} - $${item.price.toFixed(2)}</span>
+                <button class="remove-from-cart-btn" data-index="${index}">Remove</button>
+            </li>
+        `).join('');
 
+        // Add event listeners for removing items
+        document.querySelectorAll('.remove-from-cart-btn').forEach(button => {
+            button.addEventListener('click', removeFromCart);
+        });
+    }
+}
+function removeFromCart(event) {
+    const itemIndex = event.target.getAttribute('data-index');
+    cart.splice(itemIndex, 1); // Remove the item from the cart array
+    updateCartCount(); // Update the cart count
+    displayCartItems(); // Refresh the cart display
+}
+document.getElementById('cart-icon-container').addEventListener('click', () => {
+    cartPanel.classList.toggle('open'); // Slide the panel in or out
+});
+
+// Event listener to close the cart panel
+document.getElementById('close-cart').addEventListener('click', () => {
+    cartPanel.classList.remove('open');
+});
 // Trigger the cart count animation
 function triggerCartAnimation() {
     cartCountAnimation.classList.add('cart-animate');
