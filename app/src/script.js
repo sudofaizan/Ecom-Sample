@@ -1,1 +1,136 @@
-const _0x275089=_0x1e1f;(function(_0x37d58a,_0x57aacf){const _0x10ae83=_0x1e1f,_0x22d9ca=_0x37d58a();while(!![]){try{const _0xeb3c4a=-parseInt(_0x10ae83(0x18b))/0x1+parseInt(_0x10ae83(0x1af))/0x2+parseInt(_0x10ae83(0x19a))/0x3*(parseInt(_0x10ae83(0x1b5))/0x4)+-parseInt(_0x10ae83(0x1b3))/0x5+parseInt(_0x10ae83(0x1a0))/0x6+parseInt(_0x10ae83(0x1a9))/0x7+parseInt(_0x10ae83(0x1a4))/0x8;if(_0xeb3c4a===_0x57aacf)break;else _0x22d9ca['push'](_0x22d9ca['shift']());}catch(_0x19e3f5){_0x22d9ca['push'](_0x22d9ca['shift']());}}}(_0x23c1,0x717fd));const productsUrl=_0x275089(0x1ac),productGrid=document[_0x275089(0x18f)](_0x275089(0x186)),searchInput=document[_0x275089(0x18f)](_0x275089(0x1c2)),sortSelect=document[_0x275089(0x18f)](_0x275089(0x192)),cartCountElement=document[_0x275089(0x18f)](_0x275089(0x1bf)),cartPanel=document[_0x275089(0x18f)]('cart-panel'),cartItemsList=document[_0x275089(0x18f)](_0x275089(0x1b4));let allProducts=[],cart=[];function getProducts(){const _0x4ed75d=_0x275089;fetch(productsUrl)[_0x4ed75d(0x19f)](_0x1b7819=>_0x1b7819[_0x4ed75d(0x196)]())[_0x4ed75d(0x19f)](_0x499ce3=>{allProducts=_0x499ce3,displayProducts(_0x499ce3);})[_0x4ed75d(0x1a1)](_0x47a69b=>console[_0x4ed75d(0x1a5)](_0x4ed75d(0x18a),_0x47a69b));}function displayProducts(_0x419410){const _0x548d5f=_0x275089;productGrid[_0x548d5f(0x19d)]='',_0x419410['forEach'](_0x3f846a=>{const _0x46b1c3=_0x548d5f,_0x4e9115=document['createElement'](_0x46b1c3(0x1a3));_0x4e9115['classList'][_0x46b1c3(0x18d)](_0x46b1c3(0x1a7)),_0x4e9115['innerHTML']='\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h4>Product\x20ID:\x20'+_0x3f846a['id']+_0x46b1c3(0x1b8)+_0x3f846a[_0x46b1c3(0x1b2)]+'\x22\x20alt=\x22'+_0x3f846a[_0x46b1c3(0x1bd)]+_0x46b1c3(0x18e)+_0x3f846a[_0x46b1c3(0x1bd)]+_0x46b1c3(0x1c4)+_0x3f846a['description']+_0x46b1c3(0x193)+_0x3f846a[_0x46b1c3(0x1b6)]['toFixed'](0x2)+_0x46b1c3(0x1b0)+_0x3f846a['id']+_0x46b1c3(0x199),productGrid[_0x46b1c3(0x195)](_0x4e9115);}),document[_0x548d5f(0x1a2)](_0x548d5f(0x1a8))['forEach'](_0x2cac61=>{const _0x57f085=_0x548d5f;_0x2cac61[_0x57f085(0x1c0)](_0x57f085(0x19c),addToCart);});}function addToCart(_0x58d371){const _0x21d6cb=_0x275089,_0x4bcaa4=_0x58d371[_0x21d6cb(0x1bb)][_0x21d6cb(0x197)]('data-id'),_0x136694=allProducts[_0x21d6cb(0x1c1)](_0x8ecfc0=>_0x8ecfc0['id']==_0x4bcaa4);_0x136694&&(cart['push'](_0x136694),updateCartCount(),displayCartItems());}function updateCartCount(){const _0x38df83=_0x275089;cartCountElement[_0x38df83(0x1ad)]=cart['length'];}function displayCartItems(){const _0x279894=_0x275089;cart[_0x279894(0x190)]===0x0?cartItemsList['innerHTML']=_0x279894(0x1b9):(cartItemsList[_0x279894(0x19d)]=cart[_0x279894(0x1c5)]((_0x234ab5,_0x47dc43)=>_0x279894(0x188)+_0x234ab5[_0x279894(0x1b2)]+'\x22\x20alt=\x22'+_0x234ab5[_0x279894(0x1bd)]+_0x279894(0x189)+_0x234ab5[_0x279894(0x1bd)]+'\x20-\x20$'+_0x234ab5[_0x279894(0x1b6)]['toFixed'](0x2)+'</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22remove-from-cart-btn\x22\x20data-index=\x22'+_0x47dc43+_0x279894(0x194))[_0x279894(0x1bc)](''),document[_0x279894(0x1a2)]('.remove-from-cart-btn')[_0x279894(0x19b)](_0x3b0610=>{const _0x2c1502=_0x279894;_0x3b0610[_0x2c1502(0x1c0)]('click',removeFromCart);}));}function removeFromCart(_0x4a4e0d){const _0x10c1df=_0x275089,_0x4f2b87=_0x4a4e0d[_0x10c1df(0x1bb)][_0x10c1df(0x197)](_0x10c1df(0x1ba));cart[_0x10c1df(0x1ae)](_0x4f2b87,0x1),updateCartCount(),displayCartItems();}document[_0x275089(0x18f)]('cart-icon-container')[_0x275089(0x1c0)](_0x275089(0x19c),()=>{const _0x209697=_0x275089;cartPanel['classList']['toggle'](_0x209697(0x18c));}),document[_0x275089(0x18f)](_0x275089(0x19e))['addEventListener'](_0x275089(0x19c),()=>{const _0x3c044f=_0x275089;cartPanel[_0x3c044f(0x185)][_0x3c044f(0x1b1)](_0x3c044f(0x18c));});function triggerCartAnimation(){const _0x2911b8=_0x275089;cartCountAnimation['classList'][_0x2911b8(0x18d)](_0x2911b8(0x191)),setTimeout(()=>{const _0xaaf44c=_0x2911b8;cartCountAnimation['classList'][_0xaaf44c(0x1b1)](_0xaaf44c(0x191));},0x320);}function sortProducts(_0x106020=allProducts){const _0xb20484=_0x275089,_0x1bf696=sortSelect[_0xb20484(0x1c3)];let _0x298fa1=[..._0x106020];if(_0x1bf696===_0xb20484(0x1aa))_0x298fa1[_0xb20484(0x187)]((_0x131638,_0xc13be6)=>_0x131638['price']-_0xc13be6[_0xb20484(0x1b6)]);else _0x1bf696==='high-to-low'&&_0x298fa1[_0xb20484(0x187)]((_0x44266d,_0x493f9d)=>_0x493f9d[_0xb20484(0x1b6)]-_0x44266d[_0xb20484(0x1b6)]);displayProducts(_0x298fa1);}function searchProducts(){const _0x33f0e2=_0x275089,_0x4a3fca=searchInput['value']['toLowerCase'](),_0x5bb741=allProducts['filter'](_0x2ed359=>_0x2ed359[_0x33f0e2(0x1bd)][_0x33f0e2(0x1be)]()[_0x33f0e2(0x1c6)](_0x4a3fca)||_0x2ed359['id'][_0x33f0e2(0x1b7)]()[_0x33f0e2(0x1c6)](_0x4a3fca)||_0x2ed359[_0x33f0e2(0x1a6)][_0x33f0e2(0x1be)]()['includes'](_0x4a3fca));sortProducts(_0x5bb741);}function _0x23c1(){const _0x202187=['search-input','value','</h3>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p>','map','includes','classList','product-grid','sort','\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span>','Error\x20getting\x20products:','762504IlNeIi','open','add','\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<h3>','getElementById','length','cart-animate','sort-select','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<p\x20class=\x22price\x22>$','\x22>Remove</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</li>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','appendChild','json','getAttribute','input','\x22>Add\x20to\x20Cart</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20','1286589GfpPYJ','forEach','click','innerHTML','close-cart','then','2488998BLHVuR','catch','querySelectorAll','div','2252336SRnWhw','error','description','product','.add-to-cart-btn','1129870NbwuxO','low-to-high','change','converter/products.json','textContent','splice','1371006ixMBcD','</p>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22add-to-cart-btn\x22\x20data-id=\x22','remove','image','3723770oQXVLK','cart-items','4qwouyA','price','toString','</h4>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','<li>Your\x20cart\x20is\x20empty.</li>','data-index','target','join','name','toLowerCase','cart-count','addEventListener','find'];_0x23c1=function(){return _0x202187;};return _0x23c1();}function _0x1e1f(_0xfc7a44,_0x1a6850){const _0x23c1cd=_0x23c1();return _0x1e1f=function(_0x1e1f4b,_0x1d2d00){_0x1e1f4b=_0x1e1f4b-0x185;let _0x1638ad=_0x23c1cd[_0x1e1f4b];return _0x1638ad;},_0x1e1f(_0xfc7a44,_0x1a6850);}searchInput[_0x275089(0x1c0)](_0x275089(0x198),searchProducts),sortSelect['addEventListener'](_0x275089(0x1ab),()=>sortProducts(allProducts)),getProducts();
+const productsUrl = 'converter/products.json';
+const productGrid = document.getElementById('product-grid');
+const searchInput = document.getElementById('search-input');
+const sortSelect = document.getElementById('sort-select');
+const cartCountElement = document.getElementById('cart-count');
+const cartPanel = document.getElementById('cart-panel');
+const cartItemsList = document.getElementById('cart-items');
+
+let allProducts = [];
+let cart = [];
+
+// Fetch products from the JSON file
+function getProducts() {
+    fetch(productsUrl)
+        .then(response => response.json())
+        .then(products => {
+            allProducts = products;
+            displayProducts(products);
+        })
+        .catch(error => console.error('Error getting products:', error));
+}
+
+// Display products in the grid
+function displayProducts(products) {
+    productGrid.innerHTML = ''; // Clear existing products
+    products.forEach(product => {
+        const productCard = document.createElement('div');
+        productCard.classList.add('product');
+        productCard.innerHTML = `
+            <h4>Product ID: ${product.id}</h4>
+            <img src="${product.image}" alt="${product.name}">
+            <h3>${product.name}</h3>
+            <p>${product.description}</p>
+            <p class="price">$${product.price.toFixed(2)}</p>
+            <button class="add-to-cart-btn" data-id="${product.id}">Add to Cart</button>
+        `;
+        productGrid.appendChild(productCard);
+    });
+
+    // Add event listeners to "Add to Cart" buttons
+    document.querySelectorAll('.add-to-cart-btn').forEach(button => {
+        button.addEventListener('click', addToCart);
+    });
+}
+
+// Add product to cart
+function addToCart(event) {
+    const productId = event.target.getAttribute('data-id');
+    const product = allProducts.find(p => p.id == productId);
+
+    if (product) {
+        cart.push(product);
+        updateCartCount();
+        displayCartItems(); // Display the updated cart items
+    }
+}
+
+// Update the cart count displayed in the icon
+function updateCartCount() {
+    cartCountElement.textContent = cart.length;
+}
+function displayCartItems() {
+    if (cart.length === 0) {
+        cartItemsList.innerHTML = '<li>Your cart is empty.</li>';
+    } else {
+        cartItemsList.innerHTML = cart.map((item, index) => `
+            <li>
+                <img src="${item.image}" alt="${item.name}">
+                <span>${item.name} - $${item.price.toFixed(2)}</span>
+                <button class="remove-from-cart-btn" data-index="${index}">Remove</button>
+            </li>
+        `).join('');
+
+        // Add event listeners for removing items
+        document.querySelectorAll('.remove-from-cart-btn').forEach(button => {
+            button.addEventListener('click', removeFromCart);
+        });
+    }
+}
+function removeFromCart(event) {
+    const itemIndex = event.target.getAttribute('data-index');
+    cart.splice(itemIndex, 1); // Remove the item from the cart array
+    updateCartCount(); // Update the cart count
+    displayCartItems(); // Refresh the cart display
+}
+document.getElementById('cart-icon-container').addEventListener('click', () => {
+    cartPanel.classList.toggle('open'); // Slide the panel in or out
+});
+
+// Event listener to close the cart panel
+document.getElementById('close-cart').addEventListener('click', () => {
+    cartPanel.classList.remove('open');
+});
+// Trigger the cart count animation
+function triggerCartAnimation() {
+    cartCountAnimation.classList.add('cart-animate');
+
+    // Reset the animation after it completes
+    setTimeout(() => {
+        cartCountAnimation.classList.remove('cart-animate');
+    }, 800);
+}
+
+// Sort products based on the selected option
+function sortProducts(filteredProducts = allProducts) {
+    const sortValue = sortSelect.value;
+    let sortedProducts = [...filteredProducts];
+
+    if (sortValue === 'low-to-high') {
+        sortedProducts.sort((a, b) => a.price - b.price);
+    } else if (sortValue === 'high-to-low') {
+        sortedProducts.sort((a, b) => b.price - a.price);
+    }
+
+    displayProducts(sortedProducts);
+}
+
+// Filter and sort products based on search input and sorting option
+function searchProducts() {
+    const searchTerm = searchInput.value.toLowerCase();
+    const filteredProducts = allProducts.filter(product =>
+        product.name.toLowerCase().includes(searchTerm) ||
+        product.id.toString().includes(searchTerm) ||
+        product.description.toLowerCase().includes(searchTerm) ||
+        product.tags.toLowerCase().includes(searchTerm) 
+    );
+
+    sortProducts(filteredProducts); // Apply sorting after filtering
+}
+
+// Event listeners
+searchInput.addEventListener('input', searchProducts);
+sortSelect.addEventListener('change', () => sortProducts(allProducts));
+
+// Fetch and display products when the page loads
+getProducts();
