@@ -27,4 +27,4 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
         key: ${{ secrets.SSH_KEY }}
         port: 22
-        script: whoami
+        script: docker run -d --name 404ops -p 80:80 dexterquazi/ecom
