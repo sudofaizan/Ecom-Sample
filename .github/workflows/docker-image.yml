@@ -20,3 +20,11 @@ jobs:
       run: docker login -u "${{ secrets.USERNAME }}" -p "${{ secrets.PASSWORD }}"
     - name: Push
       run: docker push dexterquazi/ecom
+    - name: ssh_instance
+      uses: appleboy/ssh-action@v1.0.3
+      with:
+        host: ${{ secrets.SSH_ADDRESS }}
+        username: ${{ secrets.SSH_USERNAME }}
+        key: ${{ secrets.SSH_KEY }}
+        port: 22
+        script: whoami
