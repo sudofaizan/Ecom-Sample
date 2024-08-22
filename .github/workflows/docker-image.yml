@@ -27,4 +27,4 @@ jobs:
         username: ${{ secrets.SSH_USERNAME }}
         key: ${{ secrets.SSH_KEY }}
         port: 22
-        script: sudo docker run -d --name 404ops -p 80:80 dexterquazi/ecom
+        script: sudo docker rmi -f dexterquazi/ecom && sudo docker pull dexterquazi/ecom && sudo docker rm 404ops -f &&  sudo docker run -d --name 404ops -p 80:80 dexterquazi/ecom
