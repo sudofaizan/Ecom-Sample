@@ -9,6 +9,6 @@ jobs:
     steps:
       - checkout
       - name: imgbuild
-        command: docker build -t dexterquazi/empmed:latest
+        command: docker build -f ops/Dockerfile -t $DOCKERHUB_USERNAME/empmed:latest .
       - name: Push
-        command: echo $DOCKERHUB_PASSWORD|docker login -u $DOCKERHUB_USERNAME --password-stdin && docker push dexterquazi/empmed:latest
+        command: echo $DOCKERHUB_PASSWORD|docker login -u $DOCKERHUB_USERNAME --password-stdin && docker push $DOCKERHUB_USERNAME/empmed:latest
