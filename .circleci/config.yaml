@@ -1,16 +1,8 @@
 version: 2.1
 jobs:
   build:
-    working_directory: ~/app
-    docker:
-      - image: cimg/base:2022.09
-        auth:
-          username: $DOCKERHUB_USERNAME
-          password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
-      - setup_remote_docker:
-          docker_layer_caching: false
       - run:
           name: Build Docker image
           command: |
