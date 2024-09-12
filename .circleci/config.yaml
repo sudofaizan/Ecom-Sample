@@ -1,3 +1,4 @@
+
 version: 2.1
 jobs:
   build:
@@ -8,7 +9,9 @@ jobs:
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
-      - name: imgbuild
-        command: docker build -f ops/Dockerfile -t $DOCKERHUB_USERNAME/empmed:latest .
-      - name: Push
-        command: echo $DOCKERHUB_PASSWORD|docker login -u $DOCKERHUB_USERNAME --password-stdin && docker push $DOCKERHUB_USERNAME/empmed:latest
+      - run:
+         name: imgbuild
+         command: docker build -f ops/Dockerfile -t $DOCKERHUB_USERNAME/empmed:latest .
+      - run:
+          name: Push
+          command: echo $DOCKERHUB_PASSWORD|docker login -u $DOCKERHUB_USERNAME --password-stdin && docker push $DOCKERHUB_USERNAME/empmed:latest
