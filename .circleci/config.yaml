@@ -9,8 +9,8 @@ jobs:
       - setup_remote_docker:
           docker_layer_caching: 1
       - run:
-        name: build
-        command: docker build -t $DOCKERHUB_USERNAME/empmed:latest
+          name: build
+          command: docker build -t $DOCKERHUB_USERNAME/empmed:latest
       - run:
-        name: push
-        command: echo $DOCKERHUB_PASSWORD |docker login -u $DOCKERHUB_USERNAME --password-stidin && docker push $DOCKERHUB_USERNAME/empmed:latest  
+          name: push
+          command: echo $DOCKERHUB_PASSWORD |docker login -u $DOCKERHUB_USERNAME --password-stidin && docker push $DOCKERHUB_USERNAME/empmed:latest  
