@@ -11,6 +11,3 @@ jobs:
       - run:
           name: build
           command: docker build -t $DOCKERHUB_USERNAME/empmed:latest
-      - run:
-          name: push
-          command: echo $DOCKERHUB_PASSWORD |docker login -u $DOCKERHUB_USERNAME --password-stidin && docker push $DOCKERHUB_USERNAME/empmed:latest  
