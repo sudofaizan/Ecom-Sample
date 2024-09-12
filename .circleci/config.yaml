@@ -1,17 +1,20 @@
-
 version: 2.1
 jobs:
   build:
+    working_directory: ~/app
     docker:
       - image: cimg/base:2022.09
-        auth: 
+        auth:
           username: $DOCKERHUB_USERNAME
           password: $DOCKERHUB_PASSWORD
     steps:
       - checkout
       - run:
-         name: imgbuild
-         command: docker build -f ops/Dockerfile -t $DOCKERHUB_USERNAME/empmed:latest .
+          name: Build Docker image
+          command: |
+            docker build -t $DOCKERHUB_USERNAME/empmedi:latest -f ops/Dockerfile .
       - run:
-          name: Push
-          command: echo $DOCKERHUB_PASSWORD|docker login -u $DOCKERHUB_USERNAME --password-stdin && docker push $DOCKERHUB_USERNAME/empmed:latest
+          name: Push application Docker image
+          command: |
+            echo $DOCKERHUB_PASSWORD | docker login -u $DOCKERHUB_USERNAME --password-stdin
+            docker push $DOCKERHUB_USERNAME/empmedi:latest
