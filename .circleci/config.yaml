@@ -7,7 +7,7 @@ jobs:
         password: $DOCKERHUB_PASSWORD
     steps:
       - setup_remote_docker:
-          docker_layer_caching: 1
+          docker_layer_caching: true
       - run:
           name: build
           command: docker build -t $DOCKERHUB_USERNAME/empmed:latest
