@@ -1,0 +1,54 @@
+---
+# Source: medicine/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: medicine
+spec:
+  selector:
+    app: medicine
+  ports:
+  - port: 80
+    targetPort: 80
+  type: LoadBalancer
+---
+# Source: medicine/templates/deployment.yaml
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: medicine
+spec:
+  selector:
+    matchLabels:
+      app: medicine
+  template:
+    metadata:
+      labels:
+        app: medicine
+    spec:
+      containers:
+      - name: medicine
+        image: dexterquazi/ecom:de27dcac
+        resources:
+          limits:
+            memory: 128Mi
+            cpu: 500m
+        ports:
+        - containerPort: 80
+---
+# Source: medicine/templates/tests/test-connection.yaml
+apiVersion: v1
+kind: Pod
+metadata:
+  name: medicine-test-connection
+  labels:
+    app: medicine
+  annotations:
+    "helm.sh/hook": test
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['medicine:80']
+  restartPolicy: Never
