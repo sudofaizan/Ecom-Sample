@@ -7,3 +7,6 @@ docker run -itd --name ecom -p 80:80 dexterquazi/ecom
 else
 echo "ERROR: job fail in building"
 fi
+
+
+# helm template k8s/medicine --set "deployment.tag=sfaksf"
