@@ -28,7 +28,7 @@ spec:
     spec:
       containers:
       - name: medicine
-        image: dexterquazi/ecom:latest
+        image: dexterquazi/ecom:391b6902
         resources:
           limits:
             memory: 128Mi
