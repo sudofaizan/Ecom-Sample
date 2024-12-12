@@ -1,0 +1,12 @@
+deployment:
+  resources:
+    memory: "128Mi"
+    cpu: "500m"
+  name: medicine
+  image: dexterquazi/ecom
+  tag: latest
+
+service:
+  port: 80
+  targetPort: 80
+  type: LoadBalancer
